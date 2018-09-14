@@ -1,0 +1,15 @@
+.account-info {
+    font-size: 35px;
+    display: grid;
+    grid-template-columns: [s] 1fr [e];
+    grid-template-rows: auto;
+    & > * {
+        grid-column: s/e;
+    }
+    &__name {
+
+    }
+    &__about {
+        
+    }
+}
